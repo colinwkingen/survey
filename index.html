@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1>Welcome to our fun survey!</h1>
+    <div class="container">
+        <!-- Row 1  -->
+      <div class="row">
+        <div id="name" class="col-md-4">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input id="name" class="form-control" type="text">
+         </div>
+        </div>
+        <div id="dob" class="col-md-4">
+          <div class="form-group">
+            <label for="born">Date Of Birth</label>
+            <input id="dob" class="form-control" type="date">
+         </div>
+
+        </div>
+        <div id="color" class="col-md-4">
+          <div class="form-group">
+            <label for="color">Favorite Color</label>
+            <input id="color" class="form-control" type="color">
+         </div>
+
+        </div>
+
+      </div>
+      <!-- Row 2 -->
+      <div class="row">
+        <div id="" class="col-md-4">
+          <label for="animal">Favorite Animal</label>
+          <select class="form-control" id="animal">
+            <option>Walrus</option>
+            <option>Manbearpig</option>
+            <option>Vulture</option>
+            <option>Snail</option>
+            <option>Octopus</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="vegetable">HOW MUCH DO YOU LIKE VEGETABLES??</label>
+          <select class="form-control" id="vegetable">
+            <option value="1">Hate</option>
+            <option value="2">Indifferent</option>
+            <option value="3">Like Them</option>
+            <option value="4">I only like vegetables.</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="rock">Choose a rock.</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="rock" value="granite" checked>
+              Granite
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="rock" value="agate">
+              Agate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="rock" value="slate">
+              Slate
+            </label>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
